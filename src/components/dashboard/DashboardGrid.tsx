@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { TrendingUp, TrendingDown, Plus, Search } from 'lucide-react';
+import { TrendingUp, TrendingDown, Search } from 'lucide-react';
 import { alphaVantageService } from '../../services/alphaVantageService';
 import type { StockQuote } from '../../types/stock';
 

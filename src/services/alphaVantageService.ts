@@ -10,7 +10,6 @@ import { cacheService } from './cacheService';
 import type {
   TimeSeriesData,
   CompanyOverview,
-  GlobalQuote,
   IncomeStatementResponse,
   StockQuote,
   StockPrice,
