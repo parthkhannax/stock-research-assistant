@@ -7,6 +7,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '')
 
   return {
+    base: '/stock-research-assistant/',
     plugins: [react()],
 
     define: {
